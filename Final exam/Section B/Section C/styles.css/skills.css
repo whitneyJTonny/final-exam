@@ -1,0 +1,18 @@
+body{
+    background-color: bisque;
+
+}
+nav{
+    position: absolute;
+    gap: 20px;
+    display: flex;
+    justify-content: flex-end;
+    right: 100px;
+    top: 20px;
+}
+.skills{
+    color: deeppink;
+    text-align: start;
+    gap: 35px;
+    top: auto;
+}

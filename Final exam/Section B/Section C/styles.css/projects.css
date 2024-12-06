@@ -1,0 +1,11 @@
+body{
+    background-color: burlywood;
+}
+nav{
+    justify-content: flex-end;
+    display: flex;
+    right: 100px;
+    top: 20px;
+    position: absolute;
+    gap: 20px;
+}

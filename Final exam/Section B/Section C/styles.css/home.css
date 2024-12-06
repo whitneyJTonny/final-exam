@@ -1,0 +1,22 @@
+body{
+    background-color: aqua;
+}
+nav a:hover{
+    color: chartreuse;
+}
+nav{
+    position: absolute;
+    gap: 20px;
+    display: flex;
+    justify-content: flex-end;
+    right: 100px;
+    top: 20px;
+    background-color: black;
+}
+footer{
+    margin-bottom: 100%;
+    top: 50%;
+    text-align: center;
+    justify-content: space-between;
+    bottom: 100rem;
+}

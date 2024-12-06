@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        .page-layout {
+          display: grid;
+          width: 25%;
+        }
+      
+        .sidebar {
+          background-color: #f4f4f4;
+          padding: 20px;
+        }
+      
+        .main-content {
+          padding: 20px;
+          width: 75%;
+        }
+      
+        @media (max-width: 768px) {
+          .page-layout {
+            grid-template-columns: 1fr; 
+          }
+        }
+      </style>
+      
+</head>
+<body>
+    
+<div class="page-layout">
+    <aside class="sidebar">Sidebar</aside>
+    <main class="main-content">Main Content</main>
+</div>
+  
+</body>
+</html>

@@ -1,0 +1,24 @@
+body{
+    background-color: azure;
+}
+
+
+nav{
+    position: absolute;
+    gap: 20px;
+    display: flex;
+    justify-content: flex-end;
+    right: 100px;
+    top: 20px;
+    background-color: rgb(240, 144, 144);
+}
+.W{
+    color: deeppink;
+    align-content: center;
+    align-items: center;
+}
+.M{
+    color: deeppink;
+    align-items: center;
+    align-content: center;
+}

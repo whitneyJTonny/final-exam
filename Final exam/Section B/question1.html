@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css grid</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Card Layout</title>
+      <link rel="stylesheet" href="styles.css">
+      <style>
+        .card-container {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 10px;
+        }
+      
+        .card {
+          border: 1px solid #f70a94;
+          padding: 20px;
+          text-align: center;
+        }
+      
+        @media (max-width: 768px) {
+          .card-container {
+            grid-template-columns: 1fr;
+            grid-template-columns: min-content;
+          }
+        }
+      </style>
+      
+    </head>
+    <body>
+      <div class="card-container">
+        <div class="card">Card 1</div>
+        <div class="card">Card 2</div>
+        <div class="card">Card 3</div>
+      </div>
+
+    </body>
+    </html>     
+</body>
+</html>
